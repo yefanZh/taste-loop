@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Field Notes / Always Somewhere</title><style>
+:root{--paper:#f4ebd7;--ink:#3d3429;--red:#ba563c;--line:#cebf9e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#d3c8ae;color:var(--ink);font:16px/1.5 Georgia,serif}
+.page{max-width:1040px;margin:26px auto;background:var(--paper);min-height:100vh;box-shadow:0 14px 45px #392e2140;position:relative;overflow:hidden}
+.page:before{content:"";position:absolute;left:36px;top:0;bottom:0;border-left:1px solid #bb78675c}
+nav{display:flex;justify-content:space-between;gap:20px;align-items:center;padding:28px 7%;border-bottom:1px dashed var(--line)}
+nav strong{font-style:italic;font-size:1.3rem}nav a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--red)}
+main{padding:50px 9% 90px}.index{font:700 11px/1.4 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.21em;color:var(--red)}
+h1{font-size:clamp(3.5rem,9vw,7.2rem);line-height:.95;font-weight:400;letter-spacing:-.08em;margin:24px 0}
+h1 i{color:var(--red);font-weight:400}.lede{font-size:1.2rem;max-width:430px}
+.row{display:grid;grid-template-columns:1.25fr 1fr;gap:35px;align-items:center;margin:40px 0 70px}
+.photo{background:linear-gradient(145deg,#92aea3 0%,#a8bb9b 42%,#e5b67e 43%,#b77a51 60%,#6c6b4a 100%);aspect-ratio:4/3;transform:rotate(-2deg);border:9px solid #fffaf0;box-shadow:2px 8px 22px #53452d36;position:relative}
+.photo:after{content:"ANNECY, FRANCE  /  JUN 2024";position:absolute;bottom:-27px;left:4px;font:10px system-ui,sans-serif;letter-spacing:.12em}
+.stamp{width:120px;height:120px;border:3px double var(--red);border-radius:50%;display:grid;place-items:center;text-align:center;transform:rotate(15deg);color:var(--red);font:700 14px/1.4 system-ui,sans-serif;letter-spacing:.1em;margin:auto}
+.note{font-size:1.45rem;line-height:1.45;transform:rotate(1deg)}.line{border-top:1px solid var(--line);padding-top:22px;display:flex;justify-content:space-between;gap:20px}
+.small{font:12px/1.8 system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+@media(max-width:700px){.page{margin:0}.page:before{left:13px}nav{padding:20px 7%}main{padding:40px 9%}h1{font-size:clamp(3.3rem,14vw,6rem)}.row{grid-template-columns:1fr}.stamp{margin:25px auto}.line{display:block}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body><div class="page">
+<nav><strong>always somewhere.</strong><a href="#memory">Open the journal ↗</a></nav>
+<main><div class="index">FIELD NOTES / VOL. 01 / A LIFE TOGETHER</div>
+<h1>Places<br>we <i>keep.</i></h1><p class="lede">A little archive of the days we never want to forget. Every ticket, every wrong turn, every view worth keeping.</p>
+<div class="row" id="memory"><div class="photo" role="img" aria-label="Illustrated mountains at sunset"></div>
+<div><div class="stamp">JUNE 2024<br>FRANCE<br>★ 004</div><p class="note">“We planned a two-hour walk. Somehow, it became the entire day.”</p></div></div>
+<div class="line"><span class="small">01 / Today in our story</span><span>Next stop: wherever we go together. →</span></div>
+</main></div></body></html>

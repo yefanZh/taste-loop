@@ -1,0 +1,54 @@
+{
+  "title": "Travel Journal: Four Design Worlds",
+  "description": "Each preview interprets the same travel-memory product through a different visual metaphor. Pick a direction before integrating any code.",
+  "variants": [
+    {
+      "id": "A",
+      "name": "Field Notes",
+      "path": "field-notes.html",
+      "concept": "A tactile journal with paper, stamps, marginalia, and handwritten details.",
+      "tradeoff": "Warm and personal, but needs discipline to avoid visual clutter.",
+      "tags": [
+        "editorial",
+        "warm",
+        "journal"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Cinematic",
+      "path": "cinematic.html",
+      "concept": "A personal film archive with dramatic frames and restrained typography.",
+      "tradeoff": "High emotional impact; requires strong visual memories.",
+      "tags": [
+        "film",
+        "dark",
+        "immersive"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Atlas",
+      "path": "atlas.html",
+      "concept": "A relationship told through routes, waypoints, and cartographic details.",
+      "tradeoff": "Great for location-rich memories; less suited to stories without places.",
+      "tags": [
+        "map",
+        "exploration",
+        "minimal"
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Postcard Party",
+      "path": "postcards.html",
+      "concept": "Bold souvenir graphics, stickers, exaggerated hierarchy, playful physicality.",
+      "tradeoff": "Memorable and energetic, but can compete with the content.",
+      "tags": [
+        "experimental",
+        "colorful",
+        "playful"
+      ]
+    }
+  ]
+}

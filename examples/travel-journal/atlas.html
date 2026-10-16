@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Atlas / Our Coordinates</title><style>
+:root{--bg:#e3ece5;--ink:#254c43;--accent:#d96942;--line:#93aaa0}*{box-sizing:border-box}
+html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,sans-serif}
+header{padding:25px 5%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);gap:18px}header strong{font-size:1.3rem;letter-spacing:-.05em}a{color:inherit}
+.layout{max-width:1250px;margin:0 auto;display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;padding:80px 5% 100px;align-items:center}
+.kicker{font-size:12px;font-weight:700;letter-spacing:.2em}h1{font-size:clamp(3.4rem,6.5vw,6.5rem);line-height:.99;letter-spacing:-.085em;margin:22px 0}h1 span{color:var(--accent)}
+p{max-width:340px;font-size:1.1rem}.button{display:inline-block;background:var(--ink);color:white;padding:13px 20px;text-decoration:none;font-weight:700;margin-top:20px}
+.map{min-height:480px;border:1px solid var(--line);background:radial-gradient(ellipse at 35% 65%,#c4dbbd 0 20%,transparent 21%),radial-gradient(ellipse at 80% 22%,#c5d6cd 0 20%,transparent 21%),repeating-linear-gradient(0deg,transparent 0 48px,#436c5b16 49px 50px),repeating-linear-gradient(90deg,transparent 0 48px,#436c5b16 49px 50px);position:relative;overflow:hidden}
+.map svg{position:absolute;inset:10%;width:80%;height:80%}.pin{fill:var(--accent);stroke:var(--bg);stroke-width:5}.coord{position:absolute;font-size:11px;letter-spacing:.15em;font-weight:700}.a{top:20px;left:24px}.b{bottom:20px;right:24px}
+.bottom{max-width:1250px;margin:auto;padding:0 5% 50px;font-size:12px;letter-spacing:.12em;border-top:1px solid var(--line)}
+@media(max-width:800px){.layout{grid-template-columns:1fr;padding-top:40px;gap:30px}.map{min-height:360px}h1{font-size:clamp(3rem,13vw,5rem)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body>
+<header><strong>our coordinates ↗</strong><a href="#route">THE ROUTE</a></header>
+<main class="layout"><section><div class="kicker">AN ATLAS OF TWO PEOPLE</div><h1>Everywhere<br>is <span>ours.</span></h1>
+<p>One map. Hundreds of little stories. Follow the lines between all the places that made us.</p>
+<a class="button" href="#route">Explore our journey ↗</a></section>
+<div class="map" id="route" aria-label="Illustrated route between travel destinations" role="img">
+<span class="coord a">48°51'N / 2°21'E</span><svg viewBox="0 0 600 430" aria-hidden="true">
+<path d="M45 330 Q125 30 240 160 T450 135 T550 60" fill="none" stroke="#376f61" stroke-width="6" stroke-dasharray="14 14"/>
+<circle class="pin" cx="45" cy="330" r="14"/><circle class="pin" cx="240" cy="160" r="14"/><circle class="pin" cx="450" cy="135" r="14"/><circle class="pin" cx="550" cy="60" r="14"/>
+<text x="60" y="360" fill="#254c43" font-size="18">01 / START</text><text x="250" y="195" fill="#254c43" font-size="18">02 / DETOUR</text><text x="435" y="110" fill="#254c43" font-size="18">03 / HOME</text></svg>
+<span class="coord b">THE NEXT STOP IS UNKNOWN →</span></div></main><footer class="bottom">TRAVEL LOG / 2024 – FOREVER</footer></body></html>
